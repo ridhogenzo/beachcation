@@ -5,8 +5,8 @@ export class LandingPage extends Component {
     render() {
         return (
             <>
-            <header {...this.props}> </header>
-                </>
+                <Header {...this.props}> </Header>
+            </>
         );
     }
 }
