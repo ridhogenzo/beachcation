@@ -84,4 +84,4 @@ Button.propTypes = {
   isLarge: propTypes.bool,
   isBlock: propTypes.bool,
   hasShadow: propTypes.bool,
-};
+}

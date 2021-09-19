@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import Header from 'parts/Header';
-import landingPage from 'json/landingPage.json'
-import Hero from 'parts/'
+import landingPage from 'json/landingPage.json';
+import Hero from 'parts/Hero.js';
 
 export class LandingPage extends Component {
     render() {
+        console.log(this.props);
         return (
             <>
                 <Header {...this.props}> </Header>
