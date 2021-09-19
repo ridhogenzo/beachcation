@@ -1,0 +1,13 @@
+{
+  "duration": "2",
+  "price": "240",
+  "bookingDateStart": "new Date()",
+  "bookingDateEnd": "new Date()",
+  "firstName": "Ridho",
+  "lastName": "Hayatullah",
+  "emailAddress": "ridhohayatullah29@gmail.com",
+  "phoneNumber": "081318609456",
+  "accountHolder": "Ridhogenzo",
+  "bankFrom": "BCA",
+  "proofPayment": "FileData()"
+}
