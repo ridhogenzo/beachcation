@@ -4,7 +4,7 @@ import FormatNumber from 'utils/formatNumbering'
 
 export default function MostPopular(props) {
     return (
-        <section className="container" ref={props.refMostPopular} style={{height: 1000}}>
+        <section className="container" ref={props.refMostPopular}>
             <h4 className="mb-3 font-weight-bold">Most Popular</h4>
                <div className="container-grid">
                    {props.data.map((item, index) => {
@@ -40,7 +40,7 @@ export default function MostPopular(props) {
                       </div>
                             );
                          })}
-    </div>
+                </div>
         </section>
     );
 }
