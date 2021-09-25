@@ -78,38 +78,24 @@
   "categories": [
     {
       "_id": "asd1293uasdads1",
-      "name": "House with beauty backyard",
+      "name": "Fasilitas Tersedia",
       "items": [
         {
           "_id": "asd1293uasdads1",
-          "name": "PSW Antasari",
-          "imageUrl": "/images/treasure-1.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Snorkling",
+          "imageUrl": "/images/facilities1.jpg",
           "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Kuretakeso",
-          "imageUrl": "/images/treasure-2.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
-          "isPopular": false
-        },
-        {
-          "_id": "asd1293uasdads1",
-          "name": "Arya Duta",
-          "imageUrl": "/images/treasure-3.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Banana Boat",
+          "imageUrl": "/images/facilities2.jpg",
           "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
-          "name": "Grand Dhika",
-          "imageUrl": "/images/treasure-4.jpg",
-          "country": "South Korea",
-          "city": "Seoul Flore",
+          "name": "Beautuful View",
+          "imageUrl": "/images/facilities3.jpg",
           "isPopular": false
         }
       ]
@@ -117,11 +103,11 @@
   ],
   "testimonial": {
     "_id": "asd1293uasdads1",
-    "imageUrl": "/images/testimonial-detailspage.jpg",
+    "imageUrl": "/images/testimonial2.jpg",
     "name": "Happy Family",
-    "rate": 4.25,
+    "rate": 4.5,
     "content": "What a great trip with my family and I should try again and again next time soon...",
-    "familyName": "Angga",
-    "familyOccupation": "UI Designer"
+    "familyName": "Jasmine Ramadhanti",
+    "familyOccupation": "Make Up Artist"
   }
 }

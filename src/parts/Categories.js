@@ -43,7 +43,10 @@ export default function Categories({ data }) {
                             href={`/properties/${item._id}`}
                             className="streched-link d-block text-gray-800"
                           >
-                            <h5 className="h4" style={{ paddingTop: `1rem` }}>
+                            <h5
+                              className="h4 font-weight-bold"
+                              style={{ paddingTop: `1rem` }}
+                            >
                               {item.name}
                             </h5>
                           </Button>
