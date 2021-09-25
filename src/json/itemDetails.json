@@ -18,59 +18,35 @@
   ],
   "country": "Indonesia",
   "city": "Bogor",
-  "price": "52",
-  "unit": "night",
+  "price": "750000",
+  "unit": "Malam",
   "isPopular": true,
   "hasBackyard": true,
-  "description": "<p>The Lodge Camp & Village merupakan penginapan #unik original yang berada di The Lodge Maribaya, terdapat 2 tipe penginapan yaitu Camping dan Joglo, coba serunya menginap dengan suasanahutan juga aktivitas yang tak kalah seru.</p>",
+  "description": "<p>The Lodge Camp & Village merupakan penginapan unik original yang berada di The Lodge Maribaya, terdapat 2 tipe penginapan yaitu Camping dan Joglo,coba serunya menginap dengan suasanahutan juga aktivitas yang tak kalah seru.</p><p>Di dalam lokasi The Lodge Maribaya terdapat 2 restoran Sunda, Dapur Hawu dan Omah Bamboo juga Cafe yang unik yaituThe Pines Cafe yang memiliki pemandangan kemegahan pepohonan hutan pinus yang memanjakan mata.</p>",
   "features": [
     {
       "_id": "asd1293uasdads1",
-      "qty": "3",
-      "name": "bedroom",
-      "imageUrl": "/images/icon-bedroom.svg"
+      "qty": "1",
+      "name": "Bed Kingsize",
+      "imageUrl": "/images/icon-kingbed.svg"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "1",
-      "name": "living room",
-      "imageUrl": "/images/icon-livingroom.svg"
-    },
-    {
-      "_id": "asd1293uasdads1",
-      "qty": "2",
-      "name": "bath room",
-      "imageUrl": "/images/icon-bathroom.svg"
+      "name": "Kulkas",
+      "imageUrl": "/images/icon-kulkas.svg"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "1",
-      "name": "dining room",
-      "imageUrl": "/images/icon-diningroom.svg"
+      "name": "TV Cable",
+      "imageUrl": "/images/icon-tvcable.svg"
     },
     {
       "_id": "asd1293uasdads1",
-      "qty": "10",
-      "name": "mbps",
+      "qty": "Free",
+      "name": "Wifi",
       "imageUrl": "/images/icon-wifi.svg"
-    },
-    {
-      "_id": "asd1293uasdads1",
-      "qty": "2",
-      "name": "units ready",
-      "imageUrl": "/images/icon-airconditioner.svg"
-    },
-    {
-      "_id": "asd1293uasdads1",
-      "qty": "2",
-      "name": "refrigerator",
-      "imageUrl": "/images/icon-refrigerator.svg"
-    },
-    {
-      "_id": "asd1293uasdads1",
-      "qty": "1",
-      "name": "television",
-      "imageUrl": "/images/icon-tv.svg"
     }
   ],
   "activities": [
