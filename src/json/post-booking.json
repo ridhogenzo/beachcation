@@ -1,10 +1,9 @@
 {
   "duration": "2",
-  "price": "240",
+  "price": "750000",
   "bookingDateStart": "new Date()",
   "bookingDateEnd": "new Date()",
-  "firstName": "Ridho",
-  "lastName": "Hayatullah",
+  "fullname": "Ridho",
   "emailAddress": "ridhohayatullah29@gmail.com",
   "phoneNumber": "081318609456",
   "accountHolder": "Ridhogenzo",
