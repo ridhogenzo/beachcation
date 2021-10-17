@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal/Fade";
+import { connect } from "react-redux";
 import Header from "parts/Header";
 import Button from "elements/Button";
 import Stepper, {
@@ -13,7 +14,7 @@ import Payment from "parts/checkout/Payment";
 import Completed from "parts/checkout/Completed";
 import ItemDetails from "json/itemDetails.json";
 
-export default class CheckOut extends Component {
+class CheckOut extends Component {
   state = {
     data: {
       fullName: "",
@@ -39,9 +40,28 @@ export default class CheckOut extends Component {
   }
   render() {
     const { data } = this.state;
-    const checkout = {
-      duration: "3",
-    };
+    const { checkout } = this.props;
+
+    if (!checkout)
+      return (
+        <div className="container">
+          <div
+            className="row align-items-center justify-content-center text-center"
+            style={{ height: "100vh" }}
+          >
+            <div className="col-6 ">
+              <span className="text-gray-900 font-weight-bold">
+                Silahkan Pilih Kamar Terlebih Dahulu ya
+              </span>
+              <div>
+                <Button className="btn mt-5" type="link" href="/" isLight>
+                  Kembali
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      );
 
     const steps = {
       bookingInformation: {
@@ -170,3 +190,9 @@ export default class CheckOut extends Component {
     );
   }
 }
+
+const mapStateToProps = (state) => ({
+  checkout: state.checkout,
+});
+
+export default connect(mapStateToProps)(CheckOut);
