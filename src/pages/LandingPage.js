@@ -20,26 +20,27 @@ class LandingPage extends Component {
 
     if (!this.props.page.landingPage)
       this.props.fetchPage(
-        `https://server-beachcation.herokuapp.com/api/v1/member/landing-page`,
+        `${process.env.REACT_APP_HOST}/api/v1/member/landing-page`,
         "landingPage"
       );
   }
   render() {
     const { page } = this.props;
 
-    console.log(page);
-
     if (!page.hasOwnProperty("landingPage")) return null;
     return (
       <>
         <Header {...this.props}></Header>
-        <Hero refMostPopular={this.refMostPopular} data={page.hero} />
+        <Hero
+          refMostPopular={this.refMostPopular}
+          data={page.landingPage.hero}
+        />
         <MostPopular
           refMostPopular={this.refMostPopular}
-          data={page.mostPopular}
+          data={page.landingPage.mostPopular}
         />
-        <Categories data={page.categories} />
-        <Testimony data={page.testimonial} />
+        <Categories data={page.landingPage.category} />
+        <Testimony data={page.landingPage.testimonial} />
         <Footer />
       </>
     );
