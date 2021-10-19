@@ -5,7 +5,7 @@ import PageDetailTitle from "parts/PageDetailTitle";
 import FeaturedImage from "parts/FeaturedImage";
 import PageDetailDescription from "parts/PageDetailDescription";
 import BookingForm from "parts/BookingForm";
-import Categories from "parts/Categories";
+import Activities from "parts/Activities";
 import Testimony from "parts/Testimony";
 import { checkoutBooking } from "store/action/checkout";
 import Footer from "parts/Footer";
@@ -55,7 +55,7 @@ class DetailPage extends Component {
             </div>
           </div>
         </section>
-        <Categories data={page[match.params.id].activityId} />
+        <Activities data={page[match.params.id].activityId} />
         <Testimony data={page[match.params.id].testimonial} />
         <Footer />
       </>

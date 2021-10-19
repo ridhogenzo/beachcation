@@ -15,7 +15,7 @@ export default function Categories({ data }) {
             {category.itemId.map((item, index2) => {
               return (
                 <div
-                  className="item column-3 row-1"
+                  className="item column-4 row-1"
                   key={`category-${index1}-item-${index2}`}
                 >
                   <Fade bottom delay={300 * index2}>

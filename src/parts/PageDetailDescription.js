@@ -4,8 +4,10 @@ import ReactHtmlParser from "react-html-parser";
 export default function PageDetailDescription({ data }) {
   return (
     <main>
-      <h4>Tentang Hotel Lodge Maribaya</h4>
-      {ReactHtmlParser(data.description)}
+      <h4>{data.title}</h4>
+      <span className="text-gray-400 ">
+        {ReactHtmlParser(data.description)}
+      </span>
       <div className="row" style={{ marginTop: 30 }}>
         {data.featureId.length === 0
           ? "Tidak Ada Feature"
@@ -19,7 +21,7 @@ export default function PageDetailDescription({ data }) {
                   <img
                     width="38"
                     className="d-block mb-2"
-                    src={feature.imageUrl}
+                    src={`${process.env.REACT_APP_HOST}/${feature.imageUrl}`}
                     alt={feature.name}
                   />{" "}
                   <span>{feature.qty}</span>{" "}
