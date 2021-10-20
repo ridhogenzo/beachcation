@@ -16,14 +16,14 @@ export default function BookingInformation(props) {
                 <figure className="img-wrapper" style={{ height: 270 }}>
                   <img
                     className="img-cover"
-                    src={ItemDetails.imageUrl[0].url}
-                    alt={ItemDetails.name}
+                    src={`${process.env.REACT_APP_HOST}/${ItemDetails.imageId[0].imageUrl}`}
+                    alt={ItemDetails.title}
                   />
                 </figure>
                 <div className="row align-items-center">
                   <div className="col">
                     <div className="meta-wrapper">
-                      <h5>{ItemDetails.name}</h5>
+                      <h5>{ItemDetails.title}</h5>
                       <span className="text-gray-500">
                         {ItemDetails.city}, {ItemDetails.country}
                       </span>
@@ -43,10 +43,17 @@ export default function BookingInformation(props) {
           </div>
           <div className="col-5 py-5" style={{ paddingLeft: 80 }}>
             <Fade delay={600}>
-              <label htmlFor="fullName">Nama Lengkap</label>
+              <label htmlFor="firstName">Nama Depan</label>
               <InputText
-                id="fullName"
-                name="fullName"
+                id="firstName"
+                name="firstName"
+                value={data.fullName}
+                onChange={props.onChange}
+              />
+              <label htmlFor="lastName">Nama Belakang</label>
+              <InputText
+                id="lastName"
+                name="lastName"
                 value={data.fullName}
                 onChange={props.onChange}
               />
