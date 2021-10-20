@@ -55,24 +55,24 @@ export default function Hero(props) {
               <img
                 width="36"
                 height="36"
-                src={IconHotels}
+                src={IconOmbak}
                 alt={`${props.data.hotels} Hotels`}
               />
               <h6 className="mt-3">
                 {FormatNumber(props.data.hotels)}{" "}
-                <span className="text-gray-500 font-weigth-light">Hotels</span>
+                <span className="text-gray-500 font-weigth-light">Beach</span>
               </h6>
             </div>
             <div className="col-auto">
               <img
                 width="36"
                 height="36"
-                src={IconOmbak}
+                src={IconHotels}
                 alt={`${props.data.beach} Beach`}
               />
               <h6 className="mt-3">
                 {FormatNumber(props.data.beach)}{" "}
-                <span className="text-gray-500 font-weigth-light">Beach</span>
+                <span className="text-gray-500 font-weigth-light">Hotels</span>
               </h6>
             </div>
           </div>
